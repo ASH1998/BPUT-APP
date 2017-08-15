@@ -1,0 +1,12 @@
+Abhaya Kumar Choudhury
+OrderedDict([('1', ['1', 'PCS3D001', 'Artificial Intelligence', '4', 'S']), ('2', ['2', 'PCS3I001', 'Discrete Structures', '4', 'B']), ('3', ['3', 'PCS3I101', 'Switching Theory & Logic Design', '4', 'B']), ('4', ['4', 'PCS3I102', 'Object Oriented Programming using JAVA', '4', 'E']), ('5', ['5', 'PCS3I103', 'System Programming', '4', 'A']), ('6', ['6', 'PCS3I104', 'Software Engineering', '4', 'E *']), ('7', ['7', 'PEK3E001', 'Engineering Economics', '3', 'B']), ('Total Credits: 27', ['Total Credits: 27', 'SGPA: 6.70'])])
+
+Abhijit Mishra
+OrderedDict([('1', ['1', 'PCS3D001', 'Artificial Intelligence', '4', 'C *']), ('2', ['2', 'PCS3I001', 'Discrete Structures', '4', 'O']), ('3', ['3', 'PCS3I101', 'Switching Theory & Logic Design', '4', 'E']), ('4', ['4', 'PCS3I102', 'Object Oriented Programming using JAVA', '4', 'E']), ('5', ['5', 'PCS3I103', 'System Programming', '4', 'E']), ('6', ['6', 'PCS3I104', 'Software Engineering', '4', 'E']), ('7', ['7', 'PEK3E001', 'Engineering Economics', '3', 'A']), ('Total Credits: 27', ['Total Credits: 27', 'SGPA: 8.59'])])
+
+Abinash Patra
+OrderedDict([('1', ['1', 'PCS3D001', 'Artificial Intelligence', '4', 'C']), ('2', ['2', 'PCS3I001', 'Discrete Structures', '4', 'B']), ('3', ['3', 'PCS3I101', 'Switching Theory & Logic Design', '4', 'B']), ('4', ['4', 'PCS3I102', 'Object Oriented Programming using JAVA', '4', 'A']), ('5', ['5', 'PCS3I103', 'System Programming', '4', 'A']), ('6', ['6', 'PCS3I104', 'Software Engineering', '4', 'C']), ('7', ['7', 'PEK3E001', 'Engineering Economics', '3', 'B']), ('Total Credits: 27', ['Total Credits: 27', 'SGPA: 7.00'])])
+
+Akash Kumar Parida
+OrderedDict([('1', ['1', 'PCS3D001', 'Artificial Intelligence', '4', 'S']), ('2', ['2', 'PCS3I001', 'Discrete Structures', '4', 'C']), ('3', ['3', 'PCS3I101', 'Switching Theory & Logic Design', '4', 'B']), ('4', ['4', 'PCS3I102', 'Object Oriented Programming using JAVA', '4', 'F(Pr)']), ('5', ['5', 'PCS3I103', 'System Programming', '4', 'B']), ('6', ['6', 'PCS3I104', 'Software Engineering', '4', 'A *']), ('7', ['7', 'PEK3E001', 'Engineering Economics', '3', 'B']), ('Total Credits: 27', ['Total Credits: 27', 'SGPA: 5.22'])])
+

@@ -2,8 +2,9 @@ from selenium import webdriver
 from selenium.webdriver.support.ui import Select
 from bs4 import BeautifulSoup
 import os
+from collections import OrderedDict
 
-fileName = 'noen.txt'
+fileName = 'sem 3.txt'
 
 def main(i):
     base = webdriver.PhantomJS('phantomjs')
@@ -37,8 +38,15 @@ def main(i):
             cols = row.find_all('td')
             cols = [ele.text.strip() for ele in cols]
             data.append([ele for ele in cols if ele])
-
+        
         print(exam, '-', name)
+        
+        n = len(data)-1
+        data = data[-n:]
+        dict_ = OrderedDict()
+        for i in range(len(data)):
+            for j in range(len(data[i])):
+                dict_.setdefault(str(data[i][0]), []).append(str(data[i][j]))
 
         if os.path.exists(fileName):
             write_append = 'a'
@@ -48,12 +56,14 @@ def main(i):
         fopen = open(fileName, write_append)
         fopen.write(name)
         fopen.write("\n")
-        fopen.write(str(data))
+        fopen.write(str(dict_))
         fopen.write('\n\n')
         fopen.close()
 
         base.quit()
+        return dict_
 
     except Exception as e:
         print("Excpetion occured : ", e)
         base.quit()
+
