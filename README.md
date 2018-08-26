@@ -10,7 +10,7 @@ So in order to use this script, change the `find_elements_by_ID` throughout the 
 # Dependencies
 1. Python
 2. Selenium
-3. No head/ ghost browser [link](https://github.com/ASH1998/BPUT-APP/blob/master/phantomjs.exe)
+3. No head/ ghost browser : [link](https://github.com/ASH1998/BPUT-APP/blob/master/phantomjs.exe)
 4. BS4
 
 # Usage
