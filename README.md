@@ -22,7 +22,7 @@ These can be changed manually.
 Run `get_rolls.py`
 Set arguements at the end, the roll number i.e registration number and total number of students to get results for.
 ## Step 3.
-Results will be gathered in same repo of `get_rolls.py `, with a text and json file.
+Results will be gathered in same repo of `get_rolls.py `, with as both text and json files.
 
 # TODO:
 1. ~~Multiprocessing~~
